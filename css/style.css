@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic:
+}
+
+header{
+	background-image: url(https://googledrive.com/host/1Yc3uj4uhaJHWQxLD1c2tmnMrhLB1kjNr/1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-psition: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color:#fff;
+	padding: 5px 20px;
+	border 1px solid #fff;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.main{
+	max-width: 1200px;
+}
